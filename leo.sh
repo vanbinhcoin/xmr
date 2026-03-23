@@ -41,7 +41,7 @@ docker pull repocket/repocket
 docker run -it -d \
   --name traffmonetizer \
   --restart always \
-  --memory=100mb \
+  --memory=150mb \
   traffmonetizer/cli_v2 start accept --token 7lgEMDR05yqfE7EyW7i0JA7KgMQEIrT0CY1iEq8mx34=
 
 docker run -d \
