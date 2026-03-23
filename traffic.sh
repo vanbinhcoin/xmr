@@ -33,8 +33,8 @@ done
 # Pull image truoc
 docker pull traffmonetizer/cli_v2
 docker pull earnfm/earnfm-client:latest
-docker pull loceth/castarsdk:latest
-docker pull loceth/pop:latest
+docker pull tuanna9414/castarsdk:latest
+docker pull tuanna9414/pop:latest
 docker pull repocket/repocket
 
 # Chay container
@@ -56,7 +56,7 @@ docker run -d \
   --restart=always \
   --memory=100mb \
   -e KEY="cskfh95RCwJd04" \
-  loceth/castarsdk:latest
+  tuanna9414/castarsdk:latest
 
 docker run -d \
   --name pop \
@@ -64,7 +64,7 @@ docker run -d \
   --memory=100mb \
   -e api_key="RJBNVQRFM6XKIYTQUKNDY0KGW3CP0VQBQWRVF78L" \
   -e device_name="$DEVICE_NAME" \
-  loceth/pop:latest
+  tuanna9414/pop:latest
 
 docker run -d \
   --name repocket \
