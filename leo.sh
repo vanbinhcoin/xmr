@@ -35,13 +35,12 @@ docker pull traffmonetizer/cli_v2
 docker pull earnfm/earnfm-client:latest
 docker pull tuanna9414/castarsdk:latest
 docker pull tuanna9414/pop:latest
-docker pull repocket/repocket
 
 # Chay container
 docker run -it -d \
   --name traffmonetizer \
   --restart always \
-  --memory=150mb \
+  --memory=250mb \
   traffmonetizer/cli_v2 start accept --token 7lgEMDR05yqfE7EyW7i0JA7KgMQEIrT0CY1iEq8mx34=
 
 docker run -d \
@@ -65,14 +64,6 @@ docker run -d \
   -e api_key="RJBNVQRFM6XKIYTQUKNDY0KGW3CP0VQBQWRVF78L" \
   -e device_name="$DEVICE_NAME" \
   tuanna9414/pop:latest
-
-docker run -d \
-  --name repocket \
-  --restart=always \
-  --memory=100mb \
-  -e RP_EMAIL="vanbinhcoin@gmail.com" \
-  -e RP_API_KEY="0925936d-9307-48fe-8345-a21e101d0241" \
-  repocket/repocket
 
 # Luu thong tin ra file
 {
